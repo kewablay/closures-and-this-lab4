@@ -26,5 +26,3 @@ timerInputForm.addEventListener("submit", (event) => {
   let number = document.getElementById("number").value;
   createTimer(number, "timer-container");
 });
-
-// createTimer(10, "timer-container");
